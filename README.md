@@ -2,10 +2,10 @@
 <h1 align="center"><strong>Password Login System</strong></h1>
 <p align="center"><em>Project Documentation</em></p>
 
-<table>
+<table width="100%">
   <tr>
-    <th>Subject</th>
-    <td>Programming Fundamentals Lab</td>
+    <th width="25%">Subject</th>
+    <td width="75%">Programming Fundamentals Lab</td>
   </tr>
   <tr>
     <th>Project</th>
