@@ -27,4 +27,8 @@
     <th>Department</th>
     <td>BSAI / BSCY</td>
   </tr>
+  <tr>
+    <th>Semester</th>
+    <td>Frist (1st)</td>
+  </tr>
 </table>
