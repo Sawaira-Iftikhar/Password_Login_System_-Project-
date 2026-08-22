@@ -13,7 +13,11 @@ int main () {
          // First IF functin in while
          if (cin.fail()) {
             cin.clear(); 
+            cin.ignore(1000, '\n');
+            cout << "[!] Invalid input.\n";
+            continue;
          }
+         // Second IF Function In while
     }
     return 0;
 }
