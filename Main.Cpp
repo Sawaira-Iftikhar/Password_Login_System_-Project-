@@ -19,6 +19,8 @@ int main () {
          }
          // Second IF Function In while
          if (choice == 1) signUp();
+         else if (choice == 2) logIn();
+         
     }
     return 0;
 }
