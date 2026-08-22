@@ -8,7 +8,8 @@ int main () {
    cout << "=== PASSWORD LOGIN SYSTEM ===\n" ;
     // While Function
     while(true) {
-        
+         cout << "\n 1. Sign Up \n 2. Log In \n 3. Exit \n Your Choice: ";
+         
     }
     return 0;
 }
