@@ -35,6 +35,6 @@
 
 <h2 align="center"><strong>Password Login System</strong></h2>
  <p> 
-  For Our Programming Fundamentals Lab Project, we built a Password Login System in C++.
+  For Our Programming Fundamentals Lab Project, we built a Password Login System in C++. The Program allows <br>
  </p>
 
