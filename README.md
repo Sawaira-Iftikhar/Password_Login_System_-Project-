@@ -29,6 +29,6 @@
   </tr>
   <tr>
     <th>Semester</th>
-    <td>Frist (1st)</td>
+    <td>First (1st)</td>
   </tr>
 </table>
