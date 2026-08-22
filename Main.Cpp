@@ -24,6 +24,7 @@ int main () {
             cout << "Goodbye!\n"; 
             break;
          }
+         else cout <<"[!] Enter 1,2, or 3.\n";
     }
     return 0;
 }
