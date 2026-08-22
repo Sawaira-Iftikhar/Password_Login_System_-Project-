@@ -12,7 +12,7 @@ int main () {
          cin  >> choice;
          // First IF functin in while
          if (cin.fail()) {
-            cin.clear();
+            cin.clear(); 
          }
     }
     return 0;
