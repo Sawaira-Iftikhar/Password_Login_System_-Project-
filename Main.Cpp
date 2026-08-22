@@ -21,7 +21,7 @@ int main () {
          if (choice == 1) signUp();
          else if (choice == 2) logIn();
          else if (Choice == 3) {
-            
+            cout << "Goodbye!\n";
          }
     }
     return 0;
