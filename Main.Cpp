@@ -18,6 +18,7 @@ int main () {
             continue;
          }
          // Second IF Function In while
+         if (choice == 1) signUp();
     }
     return 0;
 }
