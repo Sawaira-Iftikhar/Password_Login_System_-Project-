@@ -16,7 +16,7 @@
     <td>C++</td>
   </tr>
   <tr>
-    <th>Group</th>
+    <th>Group Name</th>
     <td>Stack Builders</td>
   </tr>
   <tr>
