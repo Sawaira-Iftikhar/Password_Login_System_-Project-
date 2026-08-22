@@ -35,6 +35,6 @@
 
 <h2 align="center"><strong>Password Login System</strong></h2>
  <p> 
-  For Our Programming Fundamentals Lab Project, we built a Password Login System in C++. The Program allows users to sign up with a username and password and then logIn using those details. If someone enters te wrong password three times their access will be blocked. Below we explain some important part of the program with the actual code and a 
+  For Our Programming Fundamentals Lab Project, we built a Password Login System in C++. The Program allows users to sign up with a username and password and then logIn using those details. If someone enters te wrong password three times their access will be blocked. Below we explain some important part of the program with the actual code and a short descrption of what i does.
  </p>
 
