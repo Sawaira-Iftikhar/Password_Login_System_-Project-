@@ -4,6 +4,7 @@ using namespace std;
 
 const int MAX_USERS = 10;
 const int MAX_ATTEMPTS = 3;
+const int MIN_PASS_LEN;
 int main () {
  
     int Choice;
