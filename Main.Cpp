@@ -2,10 +2,12 @@
 #include <string>
 using namespace std;
 
-// Constant varaibles
+// Constant variables
 const int MAX_USERS = 10;
 const int MAX_ATTEMPTS = 3;
 const int MIN_PASS_LEN  = 6;
+
+//String variables 
 int main () {
  
     int Choice;
