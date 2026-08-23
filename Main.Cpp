@@ -2,6 +2,7 @@
 #include <string>
 using namespace std;
 
+Const int MAX_USERS;
 int main () {
  
     int Choice;
