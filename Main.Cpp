@@ -2,6 +2,7 @@
 #include <string>
 using namespace std;
 
+// Constant varaibles
 const int MAX_USERS = 10;
 const int MAX_ATTEMPTS = 3;
 const int MIN_PASS_LEN  = 6;
