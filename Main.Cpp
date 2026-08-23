@@ -3,7 +3,7 @@
 using namespace std;
 
 const int MAX_USERS = 10;
-const int MAX_ATTEMPTS;
+const int MAX_ATTEMPTS = 3;
 int main () {
  
     int Choice;
