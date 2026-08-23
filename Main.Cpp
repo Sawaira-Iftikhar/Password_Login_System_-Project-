@@ -8,6 +8,7 @@ const int MAX_ATTEMPTS = 3;
 const int MIN_PASS_LEN  = 6;
 
 //String variables 
+string usernames[MAX_USERS];
 int main () {
  
     int Choice;
