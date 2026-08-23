@@ -10,6 +10,7 @@ const int MIN_PASS_LEN  = 6;
 //String variables 
 string usernames[MAX_USERS];
 string passwords[MAX_USERS];
+int totalUsers;
 int main () {
  
     int Choice;
