@@ -2,7 +2,8 @@
 #include <string>
 using namespace std;
 
-Const int MAX_USERS = 10;
+const int MAX_USERS = 10;
+const int MAX_ATTEMPTS;
 int main () {
  
     int Choice;
