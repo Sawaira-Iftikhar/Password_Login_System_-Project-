@@ -23,6 +23,8 @@ void logIn() {
       cout << "[!] No accounts found. Please sign up first.\n";
       return;
    }
+
+   string inputUser, inputPass;
    
 }
 
