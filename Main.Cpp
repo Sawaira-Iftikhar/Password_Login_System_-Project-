@@ -14,7 +14,7 @@ int totalUsers = 0;
 
 // SignUp Function
 void SignUp() {
-   
+   cout << "\n=== SIGN UP ===\n";
 }
 
 int main () {
