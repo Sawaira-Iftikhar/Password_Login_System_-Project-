@@ -12,7 +12,7 @@ string usernames[MAX_USERS];
 string passwords[MAX_USERS];
 int totalUsers = 0;
 
-// SignIn Function
+// SignUp Function
 
 
 int main () {
