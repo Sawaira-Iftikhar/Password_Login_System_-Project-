@@ -11,6 +11,10 @@ const int MIN_PASS_LEN  = 6;
 string usernames[MAX_USERS];
 string passwords[MAX_USERS];
 int totalUsers = 0;
+
+// SignIn Function
+
+
 int main () {
  
     int Choice;
