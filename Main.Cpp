@@ -26,6 +26,7 @@ void logIn() {
 
    string inputUser, inputPass;
    int attempts = 0;
+   bool success = false;
    
 }
 
