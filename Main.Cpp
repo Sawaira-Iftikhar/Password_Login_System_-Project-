@@ -13,7 +13,9 @@ string passwords[MAX_USERS];
 int totalUsers = 0;
 
 // SignUp Function
-
+void SignUp() {
+   
+}
 
 int main () {
  
