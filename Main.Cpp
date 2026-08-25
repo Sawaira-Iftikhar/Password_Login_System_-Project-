@@ -17,7 +17,11 @@ int totalUsers = 0;
 // LogIn Function
 void logIn() {
    cout << "\n=== LOG IN ===\n";
+
    // Guard: block execution if no accounts exist
+   if (totalUsers == 0) {
+      
+   }
 }
 
 int main () {
