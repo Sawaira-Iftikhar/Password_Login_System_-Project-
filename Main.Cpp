@@ -16,7 +16,7 @@ int totalUsers = 0;
 
 // LogIn Function
 void logIn() {
-
+   cout << "\n=== LOG IN ===\n";
 }
 
 int main () {
