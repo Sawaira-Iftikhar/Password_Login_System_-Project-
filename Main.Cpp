@@ -15,6 +15,9 @@ int totalUsers = 0;
 // SignIn Function
 
 // LogIn Function
+void logIn() {
+
+}
 
 int main () {
  
