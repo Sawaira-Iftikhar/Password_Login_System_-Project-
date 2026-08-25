@@ -21,8 +21,9 @@ void logIn() {
    // Guard: block execution if no accounts exist
    if (totalUsers == 0) {
       cout << "[!] No accounts found. Please sign up first.\n";
-      
+      return;
    }
+   
 }
 
 int main () {
