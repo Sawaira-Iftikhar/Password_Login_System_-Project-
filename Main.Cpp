@@ -64,6 +64,8 @@ void logIn() {
        cout << "  You are now logged in.\n";
        cout << "  Have a great session!\n";
        cout << "******************************\n";
+   } else {
+      
    }
 }
 
