@@ -13,7 +13,7 @@ string passwords[MAX_USERS];
 int totalUsers = 0;
 
 // Function that is going to use in SignUp Function"
-bool {
+bool usernameExits(){
    
 }
 // SignIn Function
