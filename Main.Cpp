@@ -51,6 +51,7 @@ void SignUp() {
          cout << "[!] Passwords do not match. Try again.\n";
          continue;
       }
+      break;
    }
 
 int main () {
