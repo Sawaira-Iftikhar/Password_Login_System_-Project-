@@ -45,6 +45,7 @@ void SignUp() {
             continue;
        
       }    
+      cout << "Confirm password: ";
    }
 
 int main () {
