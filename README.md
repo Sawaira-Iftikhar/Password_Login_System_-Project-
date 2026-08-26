@@ -42,5 +42,7 @@
      const int MAX_ATTEMPTS = 3; <br>
      const int MIN_PASS_LEN = 6; <br>
      string usernames[MAX_USERS]; <br> 
-     string Passwords [MAX_USERS]; <br> </p>
+     string Passwords [MAX_USERS]; <br> 
+     int totalUsers = 0; </p>
+     
 
