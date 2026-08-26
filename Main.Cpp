@@ -57,6 +57,8 @@ void SignUp() {
    usernames[totalUsers] = newUser;
    passwords[totalUsers] = newPass;
    totalUsers++;
+
+   cout << "\n[OK] Account created! You can now log in.\n";
 }
 int main () {
  
