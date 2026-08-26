@@ -52,7 +52,8 @@ void logIn() {
       } else {
           attempts++;
           int remaining = MAX_ATTEMPTS - attempts;
-          if(remaining > 0)
+          if (remaining > 0)
+              cout << "[!] Wrong password. " << remaining << " attempt(s) left.\n";
       }
    }
 }
