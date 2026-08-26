@@ -24,6 +24,10 @@ void SignUp() {
    while (true) {
       cout << "Enter username : ";
       cin >> newUser;
+      if (newUser.length() < 3) {
+         
+      }
+      
    }
 int main () {
  
