@@ -46,6 +46,7 @@ void logIn() {
       cin >> inputPass;
 
       if (passwords[idx] == inputPass){
+         success = true;
          
       }
    }
