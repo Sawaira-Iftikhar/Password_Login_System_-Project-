@@ -49,7 +49,7 @@ void SignUp() {
       cin >> confirmPass;
       if (newPass != confirmPass) {
          cout << "[!] Passwords do not match. Try again.\n";
-         
+         continue;
       }
    }
 
