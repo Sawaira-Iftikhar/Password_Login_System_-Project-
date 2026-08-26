@@ -17,7 +17,8 @@ void SignUp() {
    
    // Display SignUp heading
    cout << "\n=== SIGN UP ===\n";
-
+ 
+   // Check if maximum number of users has been reached
    if (totalUsers >= MAX_USERS) {
       cout << "[!] User limit reached.\n";
       return;
