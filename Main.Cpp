@@ -30,7 +30,8 @@ void logIn() {
 
    cout << "Enter username : ";
    cin >> inputUser;
-   
+
+   // Reject unvalidated usernames before password entry
 }
 
 int main () {
