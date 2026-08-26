@@ -60,7 +60,8 @@ void logIn() {
    // Display session outcome banner
    if (success) {
        cout << "\n******************************\n";
-       cout << " Welcome, " << inputUser << "!\n";
+       cout << "  Welcome, " << inputUser << "!\n";
+       cout << "  You are now logged in.\n";
        
    }
 }
