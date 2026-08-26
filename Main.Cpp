@@ -25,6 +25,7 @@ void logIn() {
    }
 
    string inputUser, inputPass;
+
    int attempts = 0;
    bool success = false;
 
@@ -51,7 +52,7 @@ void logIn() {
       } else {
           attempts++;
           int remaining = MAX_ATTEMPTS - attempts;
-          
+          if(remaining > 0)
       }
    }
 }
