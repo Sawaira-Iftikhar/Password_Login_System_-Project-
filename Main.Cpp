@@ -12,6 +12,7 @@ string usernames[MAX_USERS];
 string passwords[MAX_USERS];
 int totalUsers = 0;
 
+// Function that is going to use in SignUp Function"
 // SignIn Function
 
 // LogIn Function
