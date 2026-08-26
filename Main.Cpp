@@ -50,6 +50,7 @@ void logIn() {
           break;  // Access granted
       } else {
           attempts++;
+          int remaining = MAX_ATTEMPTS - attempts;
           
       }
    }
