@@ -20,6 +20,7 @@ void SignUp() {
       cout << "[!] User limit reached.\n";
       return;
    }
+   string newUser, newPass, confirmPass;
 
 int main () {
  
