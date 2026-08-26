@@ -63,7 +63,7 @@ void logIn() {
        cout << "  Welcome, " << inputUser << "!\n";
        cout << "  You are now logged in.\n";
        cout << "  Have a great session!\n";
-       
+       cout << "******************************\n";
    }
 }
 
