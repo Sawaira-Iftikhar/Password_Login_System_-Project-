@@ -47,6 +47,9 @@ void SignUp() {
       }    
       cout << "Confirm password: ";
       cin >> confirmPass;
+      if (newPass != confirmPass) {
+      
+      }
    }
 
 int main () {
