@@ -29,6 +29,7 @@ void logIn() {
    bool success = false;
 
    cout << "Enter username : ";
+   cin >> inputUser;
    
 }
 
