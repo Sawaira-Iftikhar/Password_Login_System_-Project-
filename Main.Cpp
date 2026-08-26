@@ -38,7 +38,8 @@ void logIn() {
       return;
    }
 
-   cin.ignore();
+   cin.ignore();  // Flush newline left in input buffer
+   
 }
 
 int main () {
