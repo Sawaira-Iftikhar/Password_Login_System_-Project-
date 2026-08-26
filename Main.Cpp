@@ -43,6 +43,8 @@ void SignUp() {
    }
 
    cin.ignore();
+
+   // Password validation Loop
    while (true) {
          cout << "Enter password : ";
          cin >> newPass;
@@ -60,6 +62,7 @@ void SignUp() {
       break;
    }
    
+   // Save account
    usernames[totalUsers] = newUser;
    passwords[totalUsers] = newPass;
    totalUsers++;
