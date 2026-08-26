@@ -37,7 +37,8 @@ void SignUp() {
 
    cin.ignore();
    while (true) {
-   
+         cout << "Enter password : ";
+         cin >> newPass;
    }
 
 int main () {
