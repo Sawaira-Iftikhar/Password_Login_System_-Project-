@@ -23,7 +23,7 @@ void SignUp() {
    string newUser, newPass, confirmPass;
    while (true) {
       cout << "Enter username : ";
-
+      cin >> newUser;
    }
 int main () {
  
