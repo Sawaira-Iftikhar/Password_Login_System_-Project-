@@ -48,7 +48,8 @@ void SignUp() {
       cout << "Confirm password: ";
       cin >> confirmPass;
       if (newPass != confirmPass) {
-      
+         cout << "[!] Passwords do not match. Try again.\n";
+         
       }
    }
 
