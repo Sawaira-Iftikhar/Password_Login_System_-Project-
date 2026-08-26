@@ -56,6 +56,9 @@ void logIn() {
               cout << "[!] Wrong password. " << remaining << " attempt(s) left.\n";
       }
    }
+
+   // Display session outcome banner
+   
 }
 
 int main () {
