@@ -32,6 +32,8 @@ void logIn() {
    cin >> inputUser;
 
    // Reject unvalidated usernames before password entry
+   int idx = findUser(inputUser);
+   
 }
 
 int main () {
