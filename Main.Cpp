@@ -32,7 +32,7 @@ void SignUp() {
          cout << "[!] Username already taken. Try another.\n";
          continue;
       }
-      
+      break;
    }
 int main () {
  
