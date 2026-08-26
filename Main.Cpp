@@ -53,7 +53,9 @@ void SignUp() {
       }
       break;
    }
-
+   
+   usernames[totalUsers] = newUser;
+}
 int main () {
  
     int Choice;
