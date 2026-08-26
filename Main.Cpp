@@ -21,7 +21,10 @@ void SignUp() {
       return;
    }
    string newUser, newPass, confirmPass;
+   while (true) {
 
+      
+   }
 int main () {
  
     int Choice;
