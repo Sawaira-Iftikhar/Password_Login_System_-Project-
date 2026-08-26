@@ -65,7 +65,7 @@ void logIn() {
        cout << "  Have a great session!\n";
        cout << "******************************\n";
    } else {
-      
+       cout << "\n[X] Too many failed attempts. Account locked.\n";
    }
 }
 
