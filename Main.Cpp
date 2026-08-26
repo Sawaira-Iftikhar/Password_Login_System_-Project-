@@ -14,6 +14,8 @@ int totalUsers = 0;
 
 // SignUp Function
 void SignUp() {
+   
+   // Display SignUp heading
    cout << "\n=== SIGN UP ===\n";
 
    if (totalUsers >= MAX_USERS) {
