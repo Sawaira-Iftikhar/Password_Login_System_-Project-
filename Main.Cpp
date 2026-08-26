@@ -58,7 +58,9 @@ void logIn() {
    }
 
    // Display session outcome banner
-   
+   if (success) {
+      
+   }
 }
 
 int main () {
