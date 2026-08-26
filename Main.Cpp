@@ -34,6 +34,9 @@ void SignUp() {
       }
       break;
    }
+
+   cin.ignore();
+   
 int main () {
  
     int Choice;
