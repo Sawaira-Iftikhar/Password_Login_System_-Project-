@@ -33,7 +33,9 @@ void logIn() {
 
    // Reject unvalidated usernames before password entry
    int idx = findUser(inputUser);
-   
+   if (idx == -1) {
+      
+   }
 }
 
 int main () {
