@@ -43,6 +43,7 @@ void logIn() {
    // Authenticate within allowed retry limits
    while (attempts < MAX_ATTEMPTS) {
       cout << "Enter password : ";
+      cin >> inputPass;
       
    }
 }
