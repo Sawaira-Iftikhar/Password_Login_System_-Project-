@@ -40,7 +40,8 @@ void SignUp() {
          cout << "Enter password : ";
          cin >> newPass;
          if ((int)newPass.length() < MIN_PASS_LEN) {
-
+            cout << "[!] Password must be at least "
+     << MIN_PASS_LEN << " characters.\n";
 
        
          }    
