@@ -43,8 +43,7 @@ void SignUp() {
             cout << "[!] Password must be at least "
      << MIN_PASS_LEN << " characters.\n";
             continue;
-       
-      }    
+    }     
       cout << "Confirm password: ";
       cin >> confirmPass;
       if (newPass != confirmPass) {
