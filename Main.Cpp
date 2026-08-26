@@ -55,6 +55,7 @@ void SignUp() {
    }
    
    usernames[totalUsers] = newUser;
+   passwords[totalUsers] = newPass;
 }
 int main () {
  
