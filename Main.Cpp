@@ -39,6 +39,11 @@ void SignUp() {
    while (true) {
          cout << "Enter password : ";
          cin >> newPass;
+         if ((int)newPass.length() < MIN_PASS_LEN) {
+
+
+       
+         }    
    }
 
 int main () {
