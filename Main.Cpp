@@ -26,6 +26,7 @@ void SignUp() {
       cin >> newUser;
       if (newUser.length() < 3) {
          cout << "[!] Username must be at least 3 characters.\n";
+         continue;
       }
       
    }
