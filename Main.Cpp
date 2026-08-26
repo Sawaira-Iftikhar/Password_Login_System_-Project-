@@ -35,8 +35,9 @@ void logIn() {
    int idx = findUser(inputUser);
    if (idx == -1) {
       cout << "[!] Username not found. Please sign up first.\n";
-      
+      return;
    }
+   
 }
 
 int main () {
