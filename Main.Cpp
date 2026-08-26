@@ -23,6 +23,8 @@ void SignUp() {
       cout << "[!] User limit reached.\n";
       return;
    }
+
+   // Declare variables for username and password
    string newUser, newPass, confirmPass;
    while (true) {
       cout << "Enter username : ";
