@@ -48,6 +48,8 @@ void logIn() {
       if (passwords[idx] == inputPass){
          success = true;
          break;  // Access granted
+      } else {
+         
       }
    }
 }
