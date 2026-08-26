@@ -37,7 +37,8 @@ void logIn() {
       cout << "[!] Username not found. Please sign up first.\n";
       return;
    }
-   
+
+   cin.ignore();
 }
 
 int main () {
