@@ -39,5 +39,6 @@
  </p>
  <h3> Declaring Contants and Arrays:</h3>
  <p> const int MAX_USers = 10; <br> 
-     </p>
+     const int MAX_ATTEMPTS = 3;
+     const int MIN_PASS_LEN = 6;</p>
 
