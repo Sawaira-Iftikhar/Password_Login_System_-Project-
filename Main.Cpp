@@ -44,7 +44,10 @@ void logIn() {
    while (attempts < MAX_ATTEMPTS) {
       cout << "Enter password : ";
       cin >> inputPass;
-      
+
+      if (passwords[idx] == inputPass){
+         
+      }
    }
 }
 
