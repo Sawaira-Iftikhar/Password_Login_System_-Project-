@@ -59,7 +59,8 @@ void logIn() {
 
    // Display session outcome banner
    if (success) {
-      
+       cout << "\n******************************\n";
+       
    }
 }
 
