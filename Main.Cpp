@@ -46,10 +46,11 @@ void logIn() {
       cin >> inputPass;
 
       if (passwords[idx] == inputPass){
-         success = true;
-         break;  // Access granted
+          success = true;
+          break;  // Access granted
       } else {
-         
+          attempts++;
+          
       }
    }
 }
