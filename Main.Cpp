@@ -34,6 +34,7 @@ void logIn() {
    // Reject unvalidated usernames before password entry
    int idx = findUser(inputUser);
    if (idx == -1) {
+      cout << "[!] Username not found. Please sign up first.\n";
       
    }
 }
