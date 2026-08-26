@@ -29,7 +29,7 @@ void SignUp() {
          continue;
       }
       if (usernameExists(newUser)) {
-      
+         cout << "[!] Username already taken. Try another.\n";
       }
       
    }
