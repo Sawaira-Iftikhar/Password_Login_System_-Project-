@@ -14,6 +14,60 @@ int totalUsers = 0;
 
 // SignIn Function
 
+// LogIn Function
+void logIn() {
+   cout << "\n=== LOG IN ===\n";
+
+   // Guard: block execution if no accounts exist
+   if (totalUsers == 0) {
+      cout << "[!] No accounts found. Please sign up first.\n";
+      return;
+   }
+
+   string inputUser, inputPass;
+
+   int attempts = 0;
+   bool success = false;
+
+   cout << "Enter username : ";
+   cin >> inputUser;
+
+   // Reject unvalidated usernames before password entry
+   int idx = findUser(inputUser);
+   if (idx == -1) {
+      cout << "[!] Username not found. Please sign up first.\n";
+      return;
+   }
+
+   cin.ignore();  // Flush newline left in input buffer
+
+   // Authenticate within allowed retry limits
+   while (attempts < MAX_ATTEMPTS) {
+      cout << "Enter password : ";
+      cin >> inputPass;
+
+      if (passwords[idx] == inputPass){
+          success = true;
+          break;  // Access granted
+      } else {
+          attempts++;
+          int remaining = MAX_ATTEMPTS - attempts;
+          if (remaining > 0)
+              cout << "[!] Wrong password. " << remaining << " attempt(s) left.\n";
+      }
+   }
+
+   // Display session outcome banner
+   if (success) {
+       cout << "\n******************************\n";
+       cout << "  Welcome, " << inputUser << "!\n";
+       cout << "  You are now logged in.\n";
+       cout << "  Have a great session!\n";
+       cout << "******************************\n";
+   } else {
+       cout << "\n[X] Too many failed attempts. Account locked.\n";
+   }
+}
 
 int main () {
  
