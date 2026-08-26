@@ -16,7 +16,62 @@ int totalUsers = 0;
 bool usernameExits(){
    
 }
-// SignIn Function
+
+// SignUp Function
+void SignUp() {
+   
+   // Display SignUp heading
+   cout << "\n=== SIGN UP ===\n";
+ 
+   // Check if maximum number of users has been reached
+   if (totalUsers >= MAX_USERS) {
+      cout << "[!] User limit reached.\n";
+      return;
+   }
+
+   // Declare variables for username and password
+   string newUser, newPass, confirmPass;
+
+   // Username validation loop
+   while (true) {
+      cout << "Enter username : ";
+      cin >> newUser;
+      if (newUser.length() < 3) {
+         cout << "[!] Username must be at least 3 characters.\n";
+         continue;
+      }
+      if (usernameExists(newUser)) {
+         cout << "[!] Username already taken. Try another.\n";
+         continue;
+      }
+      break;
+   }
+
+   cin.ignore();
+  // Password validation Loop
+   while (true) {
+         cout << "Enter password : ";
+         cin >> newPass;
+         if ((int)newPass.length() < MIN_PASS_LEN) {
+            cout << "[!] Password must be at least "<< MIN_PASS_LEN << " characters.\n";
+            continue;
+    }     
+      cout << "Confirm password: ";
+      cin >> confirmPass;
+      if (newPass != confirmPass) {
+         cout << "[!] Passwords do not match. Try again.\n";
+         continue;
+      }
+      break;
+   }
+   
+   // Save account
+   usernames[totalUsers] = newUser;
+   passwords[totalUsers] = newPass;
+   totalUsers++;
+
+   cout << "\n[OK] Account created! You can now log in.\n";
+}
 
 // LogIn Function
 void logIn() {
@@ -73,6 +128,8 @@ void logIn() {
    }
 }
 
+
+   
 int main () {
  
     int Choice;
