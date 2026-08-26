@@ -41,6 +41,9 @@ void logIn() {
    cin.ignore();  // Flush newline left in input buffer
 
    // Authenticate within allowed retry limits
+   while (attempts < MAX_ATTEMPTS) {
+      
+   }
 }
 
 int main () {
