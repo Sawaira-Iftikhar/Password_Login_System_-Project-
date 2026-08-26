@@ -36,7 +36,10 @@ void SignUp() {
    }
 
    cin.ignore();
+   while (true) {
    
+   }
+
 int main () {
  
     int Choice;
