@@ -26,6 +26,8 @@ void SignUp() {
 
    // Declare variables for username and password
    string newUser, newPass, confirmPass;
+
+   // Username validation loop
    while (true) {
       cout << "Enter username : ";
       cin >> newUser;
