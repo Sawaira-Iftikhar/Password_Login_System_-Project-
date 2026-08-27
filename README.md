@@ -52,6 +52,5 @@
     if (cin.fail()) { <br>
     cin.clear(); <br>
     cin.ignore(1000, '\n'); <br>
-
-    }
+   continue; }
   } </em><br>
