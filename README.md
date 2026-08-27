@@ -69,7 +69,7 @@ Let talk about the usage of these functions. <br>
  In the start we use bool datatype for the true and false value. The main work of this function is to check if the user name is already exist or not during Sign-Up Function. <br>
  If the User name already exist it will give us warnig and tell us to write the username again ad take us back to the start of the function.
  <br>
- <h3>1. int findUser(string uname):</h3>
+ <h3>2. int findUser(string uname):</h3>
  This Function is used in Log-In Function. <br>
  <b> Work </b> <br>
  The actual work of this function in log-I Fucntion is help to checks if he userame exists or not.
