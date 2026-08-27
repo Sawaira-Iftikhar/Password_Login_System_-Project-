@@ -63,4 +63,5 @@
 <h1 align="center"><strong>Funtions Used in Program:</strong></h1>
 We have <b> 4 Functions </b> that we use in this program. <br>
 Let talk about the usage of these functions. <br>
+ <h3>1. bool usernameExists(string uname):</h3>
 
