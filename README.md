@@ -78,7 +78,7 @@ Let talk about the usage of these functions. <br>
 <br>
  <h3>3. void signUp()</h3>
  <br>
- 
+ Sign-Up Function is the main and First part of the program.
 
 
 
