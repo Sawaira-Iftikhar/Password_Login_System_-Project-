@@ -72,7 +72,11 @@ Let talk about the usage of these functions. <br>
  <h3>2. int findUser(string uname):</h3>
  This Function is used in Log-In Function. <br>
  <b> Work </b> <br>
- The actual work of this function in log-I Fucntion is help to checks if he userame exists or not. If the username does not exists it give us the warning to sign-Up first and then log-In.
+ The actual work of this function in log-I Fucntion is help to checks if he userame exists or not. If the username does not exists it give us the warning to sign-Up first and then log-In. 
+ <br>
+<h2 align="center"><strong>Main Fuctions:</strong></h2>
+
+
 
 
 
