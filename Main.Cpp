@@ -12,6 +12,7 @@ string usernames[MAX_USERS];
 string passwords[MAX_USERS];
 int totalUsers = 0;
 
+<<<<<<< HEAD
 //this function is used for signUp function
 bool usernameExists(string uname) {
      for (int i = 0; i < totalUsers; i++) {
@@ -19,6 +20,11 @@ bool usernameExists(string uname) {
             return true;
      }
      return false;
+=======
+// Function that is going to use in SignUp Function"
+bool usernameExits(){
+   
+>>>>>>> 40867f1815ae86f12fdba80681c70bfb54710d35
 }
 
 // SignUp Function
@@ -52,14 +58,12 @@ void SignUp() {
    }
 
    cin.ignore();
-
-   // Password validation Loop
+  // Password validation Loop
    while (true) {
          cout << "Enter password : ";
          cin >> newPass;
          if ((int)newPass.length() < MIN_PASS_LEN) {
-            cout << "[!] Password must be at least "
-     << MIN_PASS_LEN << " characters.\n";
+            cout << "[!] Password must be at least "<< MIN_PASS_LEN << " characters.\n";
             continue;
     }     
       cout << "Confirm password: ";
@@ -78,6 +82,64 @@ void SignUp() {
 
    cout << "\n[OK] Account created! You can now log in.\n";
 }
+
+// LogIn Function
+void logIn() {
+   cout << "\n=== LOG IN ===\n";
+
+   // Guard: block execution if no accounts exist
+   if (totalUsers == 0) {
+      cout << "[!] No accounts found. Please sign up first.\n";
+      return;
+   }
+
+   string inputUser, inputPass;
+
+   int attempts = 0;
+   bool success = false;
+
+   cout << "Enter username : ";
+   cin >> inputUser;
+
+   // Reject unvalidated usernames before password entry
+   int idx = findUser(inputUser);
+   if (idx == -1) {
+      cout << "[!] Username not found. Please sign up first.\n";
+      return;
+   }
+
+   cin.ignore();  // Flush newline left in input buffer
+
+   // Authenticate within allowed retry limits
+   while (attempts < MAX_ATTEMPTS) {
+      cout << "Enter password : ";
+      cin >> inputPass;
+
+      if (passwords[idx] == inputPass){
+          success = true;
+          break;  // Access granted
+      } else {
+          attempts++;
+          int remaining = MAX_ATTEMPTS - attempts;
+          if (remaining > 0)
+              cout << "[!] Wrong password. " << remaining << " attempt(s) left.\n";
+      }
+   }
+
+   // Display session outcome banner
+   if (success) {
+       cout << "\n******************************\n";
+       cout << "  Welcome, " << inputUser << "!\n";
+       cout << "  You are now logged in.\n";
+       cout << "  Have a great session!\n";
+       cout << "******************************\n";
+   } else {
+       cout << "\n[X] Too many failed attempts. Account locked.\n";
+   }
+}
+
+
+   
 int main () {
  
     int Choice;
