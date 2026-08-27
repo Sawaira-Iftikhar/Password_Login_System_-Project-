@@ -38,7 +38,7 @@
   For Our Programming Fundamentals Lab Project, we built a Password Login System in C++. The Program allows users to sign up with a username and password and then logIn using those details. If someone enters te wrong password three times their access will be blocked. Below we explain some important part of the program with the actual code and a short descrption of what i does.
  </p>
  <h3> Declaring Contants and Arrays:</h3>
-  const int MAX_USRS = 10; <br> 
+    <em> const int MAX_USRS = 10; </em> <br> 
      const int MAX_ATTEMPTS = 3; <br>
      const int MIN_PASS_LEN = 6; <br>
      string usernames[MAX_USERS]; <br> 
