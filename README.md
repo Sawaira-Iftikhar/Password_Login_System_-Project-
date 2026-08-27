@@ -54,5 +54,6 @@
     cin.ignore(1000, '\n'); <br>
    continue; }
   } </em><br>
+  <br>
  Here we use while loop in ininity y using TRUE in condition. <br>
  The main Question in this Loop is that why we use this if(cin.fail() ) if statement is because if user try to Enter any other datatype it will show error adn tell you to try again and choice the option again. <br>
