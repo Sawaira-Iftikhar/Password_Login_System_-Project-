@@ -75,6 +75,9 @@ Let talk about the usage of these functions. <br>
  The actual work of this function in log-I Fucntion is help to checks if he userame exists or not. If the username does not exists it give us the warning to sign-Up first and then log-In. 
  <br>
 <h2 align="center"><strong>Main Fuctions:</strong></h2>
+<br>
+ <h3>3. void signUp()</h3>
+ 
 
 
 
