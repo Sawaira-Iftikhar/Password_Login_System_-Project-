@@ -39,11 +39,11 @@
  </p>
  <h3> Declaring Contants and Arrays:</h3>
     <em> const int MAX_USRS = 10; </em> <br> 
-     const int MAX_ATTEMPTS = 3; <br>
-     const int MIN_PASS_LEN = 6; <br>
-     string usernames[MAX_USERS]; <br> 
-     string Passwords [MAX_USERS]; <br> 
-     int totalUsers = 0; 
+    <em> const int MAX_ATTEMPTS = 3; </em> <br>
+    <em> const int MIN_PASS_LEN = 6; </em> <br>
+    <em> string usernames[MAX_USERS]; </em> <br> 
+    <em> string Passwords [MAX_USERS]; </em> <br> 
+    <em> int totalUsers = 0; </em>
    
  <h3>Menu Loop and Input</h3>
  
