@@ -49,7 +49,8 @@
   <em> while (ture) { <br>
     cout << "1. Sign Up\n 2. Log In\n 3. Exit \n Your Choice: "; <br>
     cin >> choice; <br>
-    if (cin.fail()) {
+    if (cin.fail()) { <br>
+    cin.clear(); <br>
 
     }
   } </em><br>
