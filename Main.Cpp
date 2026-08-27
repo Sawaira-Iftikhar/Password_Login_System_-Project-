@@ -18,6 +18,7 @@ bool usernameExists(string uname) {
          if (usernames[i] == uname)
             return true;
      }
+     return false;
 }
 // SignUp Function
 void SignUp() {
