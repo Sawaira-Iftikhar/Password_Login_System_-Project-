@@ -13,7 +13,9 @@ string passwords[MAX_USERS];
 int totalUsers = 0;
 
 //this function is used for signUp function
+bool usernameExists(string uname) {
 
+}
 // SignUp Function
 void SignUp() {
    
