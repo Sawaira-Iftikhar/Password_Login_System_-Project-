@@ -46,7 +46,10 @@
     <em> int totalUsers = 0; </em>
    
  <h3>Menu Loop and Input</h3>
-  while (ture) { <br>
+  <em> while (ture) { <br>
     cout << "1. Sign Up\n 2. Log In\n 3. Exit \n Your Choice: "; <br>
     cin >> choice; <br>
-  } <br>
+    if ( ){
+
+    }
+  } </em><br>
