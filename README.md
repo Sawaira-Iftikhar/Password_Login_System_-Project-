@@ -55,4 +55,4 @@
    continue; }
   } </em><br>
  Here we use while loop in ininity y using TRUE in condition. <br>
- The main Question in this Loop is 
+ The main Question in this Loop is that why we use this if(cin.fail() ) if statement is because if user try to 
