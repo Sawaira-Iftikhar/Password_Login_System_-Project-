@@ -47,5 +47,5 @@
    
  <h3>Menu Loop and Input</h3>
   while (ture) {
-    
+    cout << "1. Sign Up\n 2. Log In\n 3. Exit \n Your Choice: ";
   }
