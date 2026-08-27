@@ -64,4 +64,7 @@
 We have <b> 4 Functions </b> that we use in this program. <br>
 Let talk about the usage of these functions. <br>
  <h3>1. bool usernameExists(string uname):</h3>
+ This function is used in Sign-Up Function. <br>
+ <b>Work: </b>
+ In the start we use bool datatype for the true and false value. The main work of this function is to check if the user name is already exist or not during Sign-Up Function.
 
