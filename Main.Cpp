@@ -12,6 +12,8 @@ string usernames[MAX_USERS];
 string passwords[MAX_USERS];
 int totalUsers = 0;
 
+//this function is used for signUp function
+
 // SignUp Function
 void SignUp() {
    
