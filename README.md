@@ -54,3 +54,5 @@
     cin.ignore(1000, '\n'); <br>
    continue; }
   } </em><br>
+ Here we use while loop in ininity y using TRUE in condition. <br>
+ The main Question in this Loop is 
