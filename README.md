@@ -77,6 +77,7 @@ Let talk about the usage of these functions. <br>
 <h2 align="center"><strong>Main Fuctions:</strong></h2>
 <br>
  <h3>3. void signUp()</h3>
+ <br>
  
 
 
