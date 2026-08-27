@@ -15,7 +15,7 @@ int totalUsers = 0;
 //this function is used for signUp function
 bool usernameExists(string uname) {
      for (int i = 0; i < totalUsers; i++) {
-
+         if (usernames[i] == uname)
      }
 }
 // SignUp Function
