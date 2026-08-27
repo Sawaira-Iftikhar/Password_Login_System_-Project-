@@ -51,6 +51,7 @@
     cin >> choice; <br>
     if (cin.fail()) { <br>
     cin.clear(); <br>
+    cin.ignore(1000, '\n'); <br>
 
     }
   } </em><br>
