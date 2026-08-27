@@ -20,6 +20,7 @@ bool usernameExists(string uname) {
      }
      return false;
 }
+
 // SignUp Function
 void SignUp() {
    
