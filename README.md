@@ -77,7 +77,9 @@ Let talk about the usage of these functions. <br>
 <h2 align="center"><strong>Main Fuctions:</strong></h2>
  <h3>3. void signUp()</h3>
  Sign-Up Function is the main and First part of the program. In which we enter the username and password and <b>(make sure not use space when you enter the username) </b> <br> And you also have to confirm the password too.
- 
+ <br>
+ <h3>4. void log-In()</h3>
+
 
 
 
