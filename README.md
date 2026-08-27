@@ -81,7 +81,8 @@ Let talk about the usage of these functions. <br>
  <h3>4. void log-In()</h3>
  Log-In function is the Second main function after sign-Up Function. You will able to use this function only if you sign-Up first other-wise it will give you the warning to sign-Up first. <br>
  Also This function Provide you the option of only <b> three attempts of password </b> if you enter the wrong password.
- 
+ <br>
+ <h5> Last but not the least, Majority of People will have the same Question: </h5>
  
 
 
