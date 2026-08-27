@@ -16,6 +16,7 @@ int totalUsers = 0;
 bool usernameExists(string uname) {
      for (int i = 0; i < totalUsers; i++) {
          if (usernames[i] == uname)
+            return true;
      }
 }
 // SignUp Function
