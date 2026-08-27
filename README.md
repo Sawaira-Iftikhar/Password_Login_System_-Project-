@@ -58,4 +58,4 @@
  Here we use while loop in ininity y using TRUE in condition. <br>
  The main Question in this Loop is that why we use this <b>if(cin.fail()) </b> if statement is because if user try to Enter any other datatype it will show error adn tell you to try again and choice the option again. 
  <br>
- And if we talk about <b>cin.clear</b> and <b>cin.ignore</b>
+ And if we talk about <b>cin.clear</b> and <b>cin.ignore</b> it will control the <b> Buffer and error </b> if the user enter any wrong datatype.
