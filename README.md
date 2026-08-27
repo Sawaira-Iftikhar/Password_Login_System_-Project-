@@ -79,7 +79,7 @@ Let talk about the usage of these functions. <br>
  Sign-Up Function is the main and First part of the program. In which we enter the username and password and <b>(make sure not use space when you enter the username) </b> <br> And you also have to confirm the password too.
  <br>
  <h3>4. void log-In()</h3>
- Log-In function is the Second main function after sign-Up Function.
+ Log-In function is the Second main function after sign-Up Function. You will able to use this function only if you sign-Up first other wise
 
 
 
