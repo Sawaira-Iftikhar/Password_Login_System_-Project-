@@ -66,5 +66,6 @@ Let talk about the usage of these functions. <br>
  <h3>1. bool usernameExists(string uname):</h3>
  This function is used in Sign-Up Function. <br>
  <b>Work: </b> <br>
- In the start we use bool datatype for the true and false value. The main work of this function is to check if the user name is already exist or not during Sign-Up Function.
+ In the start we use bool datatype for the true and false value. The main work of this function is to check if the user name is already exist or not during Sign-Up Function. <br>
+ If the User name already exist it will give us warnig and tell us to write
 
