@@ -25,7 +25,7 @@ bool usernameExists(string uname) {
 // This function is used in LogIn function
 int findUser(String uname) {
    for (int i = 0; i <totalUsers; i++) {
-      if() 
+      if(usernames[i] == uname) 
       return i;
 
    }
