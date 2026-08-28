@@ -27,9 +27,8 @@ int findUser(String uname) {
    for (int i = 0; i <totalUsers; i++) {
       if(usernames[i] == uname) 
       return i;
-
    }
-
+   return -1;
 }
 
 // SignUp Function
