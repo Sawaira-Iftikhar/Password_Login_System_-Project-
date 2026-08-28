@@ -45,7 +45,7 @@
     <em> string Passwords [MAX_USERS]; </em> <br> 
     <em> int totalUsers = 0; </em> <br>
  <br>
-  Constants set the limits for users, attempts and password length. Two arrays store all usernnames and Passwords side by side -- the same index in both belongs to one parson. totalusers counts how many accounts exist
+  Constants set the limits for users, attempts and password length. Two arrays store all usernnames and Passwords side by side -- the same index in both belongs to one parson. totalusers counts how many accounts exist and tells the program where to save the next one.
  <h3>Menu Loop and Input</h3>
   <em> while (ture) { <br>
     cout << "1. Sign Up\n 2. Log In\n 3. Exit \n Your Choice: "; <br>
