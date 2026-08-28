@@ -23,7 +23,9 @@ bool usernameExists(string uname) {
    }
 
 // This function is used in LogIn function
+int findUser() {
 
+}
 
 // SignUp Function
 void SignUp() {
