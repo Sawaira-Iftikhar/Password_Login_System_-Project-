@@ -85,7 +85,7 @@ Let talk about the usage of these functions. <br>
  <h4> Last but not the least, Majority of People will have the same Question: </h4> 
  <h4> Question:</h4> What if we want to exit the program after adding the required accounts?
 <h4> Answer:</h4> As you all know in the start of the main function we use infinite while  loop so it will give the choice to <b>Sign-Up, log-In and Exit <b> option again and again even we aready entered all information. <br>
-So what you can do is just choose 
+So what you can do is just choose NO. 3 Exit to leave
 
 
 
