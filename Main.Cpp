@@ -24,6 +24,9 @@ bool usernameExists(string uname) {
 
 // This function is used in LogIn function
 int findUser(String uname) {
+   for () {
+      
+   }
 
 }
 
