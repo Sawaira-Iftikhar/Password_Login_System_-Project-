@@ -83,8 +83,8 @@ Let talk about the usage of these functions. <br>
  Also This function Provide you the option of only <b> three attempts of password </b> if you enter the wrong password.
  <br>
  <h4> Last but not the least, Majority of People will have the same Question: </h4> 
- <h4> Question: </h4> What if we want to exit the program after adding the required accounts?
-
+ <h4> Question:</h4> What if we want to exit the program after adding the required accounts?
+<h4> Answer:</h4>
 
 
 
