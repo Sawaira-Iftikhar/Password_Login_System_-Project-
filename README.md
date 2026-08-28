@@ -45,7 +45,7 @@
     <em> string Passwords [MAX_USERS]; </em> <br> 
     <em> int totalUsers = 0; </em>
   <br>
-  Constants set the limits for users, attempts and password length.
+  Constants set the limits for users, attempts and password length. Two arrays store all usernnames and Passwords
  <h3>Menu Loop and Input</h3>
   <em> while (ture) { <br>
     cout << "1. Sign Up\n 2. Log In\n 3. Exit \n Your Choice: "; <br>
