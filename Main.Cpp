@@ -48,8 +48,8 @@ string getHiddenInput() {
       }  
    cout << endl;
 return input;
+ }
 }
-
 // SignUp Function
 void SignUp() {
    
