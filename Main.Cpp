@@ -32,6 +32,11 @@ string getHiddenInput() {
          if (!input.empty()) {
             input.pop_back();
             cout << "\b \b";
+         }
+      } else {
+    input += ch;
+    cout << '*';
+   }      
 }
 
 // SignUp Function
