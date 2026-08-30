@@ -62,7 +62,7 @@
  And if we talk about <b>cin.clear</b> and <b>cin.ignore</b> it will control the <b> Buffer and error </b> if the user enter any wrong datatype.
  <br>
 <h1 align="center"><strong>Funtions Used in Program:</strong></h1>
-We have <b> 4 Functions </b> that we use in this program. <br>
+We have <b> 5 Functions </b> that we use in this program. <br>
 Let talk about the usage of these functions. <br>
  <h3>1. bool usernameExists(string uname):</h3>
  This function is used in Sign-Up Function. <br>
