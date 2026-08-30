@@ -25,6 +25,8 @@ bool usernameExists(string uname) {
 string getHiddenInput() {
    string input = "";
    char ch;
+   while (true) {
+      
 }
 
 // SignUp Function
