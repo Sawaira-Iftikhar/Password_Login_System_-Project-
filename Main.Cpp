@@ -19,7 +19,7 @@ bool usernameExists(string uname) {
             return true;
      }
      return false;
-   }
+}
    
 // This function is used in LogIn function
 int findUser(String uname) {
