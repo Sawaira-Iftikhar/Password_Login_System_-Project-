@@ -76,7 +76,7 @@ void SignUp() {
   // Password validation Loop
    while (true) {
          cout << "Enter password : ";
-         cin >> newPass;
+         newPass = getHiddenInput();
          if ((int)newPass.length() < MIN_PASS_LEN) {
             cout << "[!] Password must be at least "<< MIN_PASS_LEN << " characters.\n";
             continue;
