@@ -75,6 +75,8 @@ Let talk about the usage of these functions. <br>
  <b> Work </b> <br>
  The actual work of this function in log-I Fucntion is help to checks if he userame exists or not. If the username does not exists it give us the warning to sign-Up first and then log-In. 
  <br>
+ <h3>3. string getHiddenInput():</h3>
+
 <h2 align="center"><strong>Main Fuctions:</strong></h2>
  <h3>4. void signUp()</h3>
  Sign-Up Function is the main and First part of the program. In which we enter the username and password and <b>(make sure not use space when you enter the username) </b> <br> And you also have to confirm the password too.
