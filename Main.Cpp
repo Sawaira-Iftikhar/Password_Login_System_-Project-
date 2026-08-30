@@ -82,7 +82,7 @@ void SignUp() {
             continue;
     }     
       cout << "Confirm password: ";
-      cin >> confirmPass;
+      confirmPass = getHiddenInput();
       if (newPass != confirmPass) {
          cout << "[!] Passwords do not match. Try again.\n";
          continue;
