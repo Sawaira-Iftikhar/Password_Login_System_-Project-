@@ -36,7 +36,10 @@ string getHiddenInput() {
       } else {
     input += ch;
     cout << '*';
-   }      
+      }  
+   cout << endl;
+return input;
+}
 }
 
 // SignUp Function
