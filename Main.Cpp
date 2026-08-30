@@ -21,6 +21,15 @@ bool usernameExists(string uname) {
      return false;
    }
 
+// This function is used in LogIn function
+int findUser(String uname) {
+   for (int i = 0; i <totalUsers; i++) {
+      if(usernames[i] == uname) 
+      return i;
+   }
+   return -1;
+}
+
 // Function to get password input and display asterisks
 string getHiddenInput() {
    string input = "";
@@ -39,7 +48,6 @@ string getHiddenInput() {
       }  
    cout << endl;
 return input;
-}
 }
 
 // SignUp Function
