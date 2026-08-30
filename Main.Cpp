@@ -20,7 +20,7 @@ bool usernameExists(string uname) {
      }
      return false;
    }
-
+   
 // This function is used in LogIn function
 int findUser(String uname) {
    for (int i = 0; i <totalUsers; i++) {
@@ -47,7 +47,7 @@ string getHiddenInput() {
     cout << '*';
       }  
    cout << endl;
-return input;
+ return input;
  }
 }
 // SignUp Function
