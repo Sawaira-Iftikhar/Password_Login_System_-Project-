@@ -12,7 +12,6 @@ string usernames[MAX_USERS];
 string passwords[MAX_USERS];
 int totalUsers = 0;
 
-
 //this function is used for signUp function
 bool usernameExists(string uname) {
      for (int i = 0; i < totalUsers; i++) {
@@ -29,6 +28,26 @@ int findUser(String uname) {
       return i;
    }
    return -1;
+}
+
+// Function to get password input and display asterisks
+string getHiddenInput() {
+   string input = "";
+   char ch;
+   while (true) {
+      ch = cin.get();
+      if (ch == '\n') break;
+      if (ch == '\b' || ch == 127) {
+         if (!input.empty()) {
+            input.pop_back();
+            cout << "\b \b";
+         }
+      } else {
+    input += ch;
+    cout << '*';
+      }  
+   cout << endl;
+return input;
 }
 
 // SignUp Function
@@ -65,13 +84,13 @@ void SignUp() {
   // Password validation Loop
    while (true) {
          cout << "Enter password : ";
-         cin >> newPass;
+         newPass = getHiddenInput();
          if ((int)newPass.length() < MIN_PASS_LEN) {
             cout << "[!] Password must be at least "<< MIN_PASS_LEN << " characters.\n";
             continue;
     }     
       cout << "Confirm password: ";
-      cin >> confirmPass;
+      confirmPass = getHiddenInput();
       if (newPass != confirmPass) {
          cout << "[!] Passwords do not match. Try again.\n";
          continue;
