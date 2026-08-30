@@ -21,6 +21,7 @@ bool usernameExists(string uname) {
      return false;
    }
 
+// Function to get password input and display asterisks
 
 // SignUp Function
 void SignUp() {
