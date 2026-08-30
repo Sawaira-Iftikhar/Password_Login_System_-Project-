@@ -76,7 +76,7 @@ Let talk about the usage of these functions. <br>
  The actual work of this function in log-I Fucntion is help to checks if he userame exists or not. If the username does not exists it give us the warning to sign-Up first and then log-In. 
  <br>
  <h3>3. string getHiddenInput():</h3>
- This Function hides the password entered by the user by displaying * characters instead of the actual text on the screen. It improves security and privacy by preventing others from viewing the password during input.
+ This Function hides the password entered by the user by displaying * characters instead of the actual text on the screen. It improves security and privacy by preventing others from viewing the password during input. The original password is still stored internally 
 
 <h2 align="center"><strong>Main Fuctions:</strong></h2>
  <h3>4. void signUp()</h3>
