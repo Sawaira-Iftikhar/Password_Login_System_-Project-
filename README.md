@@ -76,10 +76,10 @@ Let talk about the usage of these functions. <br>
  The actual work of this function in log-I Fucntion is help to checks if he userame exists or not. If the username does not exists it give us the warning to sign-Up first and then log-In. 
  <br>
 <h2 align="center"><strong>Main Fuctions:</strong></h2>
- <h3>3. void signUp()</h3>
+ <h3>4. void signUp()</h3>
  Sign-Up Function is the main and First part of the program. In which we enter the username and password and <b>(make sure not use space when you enter the username) </b> <br> And you also have to confirm the password too.
  <br>
- <h3>4. void log-In()</h3>
+ <h3>5. void log-In()</h3>
  Log-In function is the Second main function after sign-Up Function. You will able to use this function only if you sign-Up first other-wise it will give you the warning to sign-Up first. <br>
  Also This function Provide you the option of only <b> three attempts of password </b> if you enter the wrong password.
  <br>
