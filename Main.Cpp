@@ -27,6 +27,7 @@ string getHiddenInput() {
    char ch;
    while (true) {
       ch = cin.get();
+      if (ch == '\n') break;
 }
 
 // SignUp Function
