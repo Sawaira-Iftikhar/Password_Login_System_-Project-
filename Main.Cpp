@@ -44,7 +44,7 @@ void logIn() {
    // Authenticate within allowed retry limits
    while (attempts < MAX_ATTEMPTS) {
       cout << "Enter password : ";
-      inputPass = getHiddenInput();
+      inputPass = getHiddenInput(); // Read masked password
 
       if (passwords[idx] == inputPass){
           success = true;
